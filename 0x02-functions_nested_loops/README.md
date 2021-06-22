@@ -1,1 +1,1 @@
-This is an alx project on C. functions nested looos
+This is an alx project on C. functions nested loops
