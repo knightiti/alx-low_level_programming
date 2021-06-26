@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- *main: Entry point
+ *main- Entry point
  *print message using puts
- *return: zero
+ *return: 0
  */
 int main(void)
 {
