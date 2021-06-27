@@ -1,18 +1,23 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * hex
- *Return: Always 0 (Success)
+ * printing hexadecimal
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-char ch;
-int n;
-
-for (n = 0; n < 10; n++)
-putchar(n + '0');
-for (ch = 'a'; ch <= 'f'; ch++)
-putchar(ch);
+int i = 0;
+char c = 'a';
+while (i < 10)
+{
+putchar(i +'0');
+i++;
+}
+while(c <= 'f')
+{
+putchar(c);
+c++;
+}
 putchar('\n');
 return (0);
 }
