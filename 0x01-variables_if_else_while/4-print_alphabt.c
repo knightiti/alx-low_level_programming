@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * execpt q & e
+ * printing lower case alphabet except 'q' & 'e'
  *Return: Always 0 (Success)
  */
 int main(void)
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-if (ch != 'q' && ch != 'e')
+if (c != 'q' && c != 'e')
 {
-putchar(ch);
+putchar(c);
 }
 }
 putchar('\n');
