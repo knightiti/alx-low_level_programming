@@ -1,14 +1,18 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * numbers
+ * print numbers of base 10
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int n;
-for (n = 0; n < 10; n++)
-printf("%d", n);
+int i = 0;
+while (i < 10)
+{
+printf("%d", i);
+i++;
+} 
 printf("\n");
 return (0);
 }
+
