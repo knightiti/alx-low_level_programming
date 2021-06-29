@@ -1,11 +1,15 @@
 #include "holberton.h"
 /**
- * _puts - a function that prints a string
- * @str: string input
- * Return: string
+ * _puts - function that prints a string, followed by a new line
+ * @str: declaration of *str and paramters for the function _puts
+ * Return: Always 0.
  */
 void _puts(char *str)
 {
-*str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-_puts(*str);
+int c;
+for (c = 0; str[c] != 0; c++)
+{
+_putchar(str[c]);
+}
+_putchar('\n');
 }
