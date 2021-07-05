@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * puts2 - func that prints 1 char/2 of a string, followed by a new line.
+ * puts2 - a function that prints every other character of a string, starting with the first character.
  * @str: declaration of str and paramters for the function puts2
  * Return: Always 0.
  */

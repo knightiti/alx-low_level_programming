@@ -16,4 +16,3 @@ pl = c[i++];
 }
 return (sum);
 }
-
