@@ -49,7 +49,7 @@ coins++;
 while (cents >= n)
 {
 cents -= n;
-coins++
+coins++;
 }
 while (cents >= t)
 {
