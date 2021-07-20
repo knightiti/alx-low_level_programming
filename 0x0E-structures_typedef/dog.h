@@ -10,18 +10,13 @@
  * Description: a structure that defines the name, age and owner of a dog
  */
 
-struct dog
+typedef struct dog
 {
 char* name;
 float age;
 char* owner;
-};
-int main(void)
-{
-struct dog my_dog;
-my_dog.name = "poppy";
-my_dog.age = "3.5";
-my_dog.owner = "Bob";
-return 0;
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
 }
 #endif /*DOG_H*/
