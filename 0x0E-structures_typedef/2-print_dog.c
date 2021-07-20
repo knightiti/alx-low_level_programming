@@ -16,7 +16,7 @@ d->name = "(nil)";
 if (d->age <= 0)
 printf("Age: (nil)\n");
 if (d->owner == NULL)
-dd->owner = "(nil)";
+d->owner = "(nil)";
 
 printf("Name: %s\n", d->name);
 printf("Age: %.6f\n", d->age);
