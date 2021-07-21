@@ -21,6 +21,7 @@ new_name = malloc(sizeof(dog_t));
 if (name == NULL)
 return (NULL);
 if (name == NULL || age <= 0 || owner == NULL)
+{
 free(new_name);
 return (NULL);
 }
