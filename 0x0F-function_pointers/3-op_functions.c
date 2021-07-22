@@ -43,7 +43,7 @@ return (a / b);
 }
 /**
  * op_mod - a function that returns the remainder of a division
- * @a: 1st integer 
+ * @a: 1st integer
  * @b: 2nd integer
  * Return: 0
  */
