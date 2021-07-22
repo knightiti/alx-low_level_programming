@@ -6,7 +6,7 @@
 /**
  * sum_them_all - a function that returns the sum of all its parameters
  * @n: integer value
- * Return: sum, 0 if (n == 0)
+ * Return: sum
  */
 
 int sum_them_all(const unsigned int n, ...)
@@ -16,7 +16,6 @@ unsigned int i, sum;
 
 if (n == 0)
 return 0;
-
 va_start(ap, n);
 sum = 0;
 for (i = 0; i < n; i++)
