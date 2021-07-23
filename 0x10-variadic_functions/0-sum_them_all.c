@@ -15,7 +15,7 @@ va_list ap;
 unsigned int i, sum;
 
 if (n == 0)
-return 0;
+return (0);
 va_start(ap, n);
 sum = 0;
 for (i = 0; i < n; i++)
