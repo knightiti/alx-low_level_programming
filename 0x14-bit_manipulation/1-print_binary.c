@@ -8,27 +8,24 @@
 
 void print_binary(unsigned long int n)
 {
-int i = 0, count, k, temp;
+unsigned long int m = n;
+int i = 0, k;
 
 if (n == 0)
-{
-printf("0");
-return;
-}
-temp = n;
+_putchar('0');
 
-while (temp != 0)
+while (m > 0)
 {
+m = m >> 1;
 i++;
-temp = temp >> 1;
 }
 
-for (count = i - 1; count >= 0; count--)
+for (i--; i >= 0; i--)
 {
-k = n >> count;
+k = n >> i;
 if (k & 1)
-printf("1");
+_putchar('1');
 else
-printf("0");
+_putchar('0');
 }
 }
